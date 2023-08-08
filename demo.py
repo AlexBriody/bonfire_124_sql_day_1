@@ -69,5 +69,5 @@ class PGSQL:
 
 if __name__ == '__main__':
     c = PGSQL()
-    c.create_tables(r'C:\Users\Alex Lucchesi\bonfire_124_sql_day_1\bonfire_124_\amazon_mock_create.sql')
-    c.insert_data(r'C:\Users\Alex Lucchesi\bonfire_124_sql_day_1\bonfire_124_\amazon_mock_insert.sql')
+    c.create_tables('/Users/alexanderbriody/Desktop/Coding Temple/Bonfire Classes/Week_5/Day_1/bonfire_124_sql_day_1/bonfire_124_sql_day_1/amazon_mock_create.sql')
+    c.insert_data('/Users/alexanderbriody/Desktop/Coding Temple/Bonfire Classes/Week_5/Day_1/bonfire_124_sql_day_1/bonfire_124_sql_day_1/amazon_mock_insert.sql')
