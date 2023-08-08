@@ -57,7 +57,6 @@ class PGSQL:
                 self.__pg_con.commit()
             except psycopg2.ProgrammingError as msg:
                 print(f'Command Skipped: {msg}\n{insert}')
-                
     # Step 4: Create static method
     @staticmethod
     def create_file(filepath: str):
